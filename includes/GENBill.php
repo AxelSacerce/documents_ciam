@@ -4,7 +4,7 @@
 	require_once('dompdf/autoload.inc.php');
 
 	use Dompdf\Dompdf;
-
+	
 	ob_start();
     
     //Se genera la factura en formato pdf
@@ -27,8 +27,10 @@
     $dompdf->set_paper('letter', 'portrait' );
     $dompdf->load_html($html);
     $dompdf->render();
-    $dompdf->stream($name);
+    $dompdf->stream($name,array('Attachment'=>0));
+    
 
+	
 	/*
 	require_once('cl_libraryConstants.php');
 	

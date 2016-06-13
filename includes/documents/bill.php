@@ -160,6 +160,8 @@ select {
     orphans: 3;
     widows: 3;
   }
+  
+  
   h2,
   h3 {
     page-break-after: avoid;
@@ -211,7 +213,7 @@ html {
 }
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
@@ -1047,345 +1049,365 @@ dd {
 
 
 /*# sourceMappingURL=bootstrap.css.map */
-
+table{
+  border-spacing: 1px;
+}
 	  .black {
 	  	font-weight: bold;
 	  }
 	  .border {
 	  	border: 1px solid #000;
 	  }
+	  
+	  
+	 /*
+	   Pesonal  styles Axel Sarceño
+	 */
+	 p{
+    margin-left: 15px;
+    font-size: 10px;
+    line-height: 100%;
+  }
+  
+  .border-iva {
+   
+    border-top: 1px solid #000;
+    border-bottom:1px solid #000;
+    border-left:1px solid #000;
+  }
+  
+  .border-porcent {
+    
+    border-top: 1px solid #000;
+     border-bottom:1px solid #000;
+    
+    
+  }
+ 
+  
+  
+  .border-value {
+    
+    border-top: 1px solid #000;
+    border-bottom:1px solid #000;
+    border-right:1px solid #000;
+   
+  }
+  
+  td{
+    height:5px;
+  }
+  
+  
+  h4{
+    font-size:12px;
+  }
+  h5{
+    font-size:10px;
+    
+  }
+  h6{font-size:8px;}
+  
+  .logo{
+    width: 200px;
+    height:auto;
+  }
+  
+  .grayColor{
+    background-color:#E2DEDE;
+  }
+  
+  .borderRadius{
+    border-radius: 5px 5px 0 0;
+  }
+  
+  
+  
+  
+  /********************/
 	</style>
 </head>
 <body>
 	<div class="container">
       <!-- Example row of columns -->
-	  <div class="row" "border">
-	    <div class="col-md-6 col-md-offset-6" align="center">
-	      <h4 class="black">FACTURA ELECTRONICA</h4>
-	      <h5><span class="black">SERIE: </span>AA2 <span class="black">No. </span>51134</h5>
-	      <h5 class="black">NUMERO DE IDENTIFICACION UNICO</h5>
-	      <h5>FACE63-AA2-001-1600000051134</h5>
-	      <h5><span class="black">Fecha de Emisión:</span> 05/02/2016</h5>
-	  </div>
-	
-
-		<div class="row" align="center">
-	        <div class="col-md-12">
-	            <h4>DATOS DEL VENDEDOR (EFACE)</h4>
-	        </div>
-	    </div>
-
-	    <div class="row">
-	        <div class="col-md-3">
-	          <p>NIT</p>	          
-	        </div>
+	  <div class="row ">
+	    <table width="100%">
+	      <tr>
+	        <td class="text-left">
+	          <img class="logo" src="includes/documents/imgs/Logo.png">
+	        </td>
 	        
-	        <div class="col-md-9">
-	          <p>8070299-6</p>
-	        </div>
-	    </div>
-
-	    <div class="row">
-	        <div class="col-md-3">
-	          <p>RAZON SOCIAL</p>	          
-	        </div>
-	        
-	        <div class="col-md-9">
-	          <p>Centro Integral de Atención Médica, S.A.</p>
-	        </div>
-	    </div>
-
-	    <div class="row">
-	        <div class="col-md-3">
-	          <p>NOMBRE COMERCIAL</p>	          
-	        </div>
-	        
-	        <div class="col-md-9">
-	          <p>Centro Integral de Atención Médica, S.A.</p>
-	        </div>
-	    </div>
-
-	    <div class="row">
-	        <div class="col-md-3">
-	          <p>DIRECCION</p>	          
-	        </div>
-	        
-	        <div class="col-md-9">
-	          <p>21 avenida y 7ma Calle 4-32 zona 11, Local L7-07</p>
-	        </div>
-	    </div>
-
-	    <div class="row" align="center">
-	        <div class="col-md-12">
-	            <h4>DATOS DEL COMPRADOR</h4>
-	        </div>
-	    </div>
-
-	    <div class="row">
-	        <div class="col-md-3">
-	          <p>NIT</p>	          
-	        </div>
-	        
-	        <div class="col-md-9">
-	          <p>32173-7</p>
-	        </div>
-	    </div>
-
-	    <div class="row">
-	        <div class="col-md-3">
-	          <p>RAZON SOCIAL</p>	          
-	        </div>
-	        
-	        <div class="col-md-9">
-	          <p>SEGUROS G & T, S.A.</p>
-	        </div>
-	    </div>
-
-	    <div class="row">
-	        <div class="col-md-3">
-	          <p>PACIENTE</p>	          
-	        </div>
-	        
-	        <div class="col-md-9">
-	          <p>EDIE REYNALDO CARRANZA ENRIQUEZ</p>
-	        </div>
-	    </div>
-
-	    <div class="row">
-	        <div class="col-md-3">
-	          <p>DIRECCION</p>	          
-	        </div>
-	        
-	        <div class="col-md-9">
-	          <p>ZONA Ruta 2, 2-39 zona 4.</p>
-	        </div>
-	    </div>
-
-	    <div class="row">
-	        <div class="col-md-3">
-	          <p>TELEFONO</p>	          
-	        </div>
-	        
-	        <div class="col-md-9">
-	          <p>23385858</p>
-	        </div>
-	    </div>
-
-	    <div class="row">
-	        <div class="col-md-12">
-	            <h5><span class="black">Observaciones</span></h5>
-	        </div>
-	    </div>
-
-	    <div class="row" align="center">
-	        <div class="col-md-12">
-	            <h4>DATOS DEL DOCUMENTO</h4>
-	        </div>
-	    </div>
-
-	    <div class="row">
-	        <div class="col-md-2">
-	          <p>CANT</p>	          
-	        </div>
-	        
-	        <div class="col-md-2">
-	          <p>TIPO</p>
-	        </div>
-
-			<div class="col-md-4">
-	          <p>DESCRIPCION</p>
-	        </div>
-
-	        <div class="col-md-2">
-	          <p>P. UNI</p>
-	        </div>
-
-	        <div class="col-md-2">
-	          <p>TOTAL</p>
-	        </div>
-	    </div>
-
-	    <div class="row">
-	        <div class="col-md-2">
-	          <p>1</p>	          
-	        </div>
-	        
-	        <div class="col-md-2">
-	          <p> </p>
-	        </div>
-
-			<div class="col-md-4">
-	          <p>Uso de la Emergencia</p>
-	        </div>
-
-	        <div class="col-md-2">
-	          <p>Q. 446.43</p>
-	        </div>
-
-	        <div class="col-md-2">
-	          <p>Q. 446.43</p>
-	        </div>
-	    </div>
-
-	    <div class="row">
-	        <div class="col-md-1 col-md-offset-5">
-	          <p>IVA</p>	          
-	        </div>
-	        <div class="col-md-1">
-	          <p>12%</p>	          
-	        </div>
-	        <div class="col-md-1">
-	          <p>53.57</p>	          
-	        </div>
-	    </div>
-
-	    <div class="row">
-	        <div class="col-md-2">
-	          <p>1</p>	          
-	        </div>
-	        
-	        <div class="col-md-2">
-	          <p> </p>
-	        </div>
-
-			<div class="col-md-4">
-	          <p>Consulta Telefonica Especialista - Sub-especialista</p>
-	        </div>
-
-	        <div class="col-md-2">
-	          <p>Q. 22.32</p>
-	        </div>
-
-	        <div class="col-md-2">
-	          <p>Q. 22.32</p>
-	        </div>
-	    </div>
-
-	    <div class="row">
-	        <div class="col-md-1 col-md-offset-5">
-	          <p>IVA</p>	          
-	        </div>
-	        <div class="col-md-1">
-	          <p>12%</p>	          
-	        </div>
-	        <div class="col-md-1">
-	          <p>2.68</p>	          
-	        </div>
-	    </div>
-
-	    <div class="row">
-	        <div class="col-md-2">
-	          <p>1</p>	          
-	        </div>
-	        
-	        <div class="col-md-2">
-	          <p> </p>
-	        </div>
-
-			<div class="col-md-4">
-	          <p>INSUMOS</p>
-	        </div>
-
-	        <div class="col-md-2">
-	          <p>Q. 148.36</p>
-	        </div>
-
-	        <div class="col-md-2">
-	          <p>Q. 148.36</p>
-	        </div>
-	    </div>
-
-	    <div class="row">
-	        <div class="col-md-1 col-md-offset-5">
-	          <p>IVA</p>	          
-	        </div>
-	        <div class="col-md-1">
-	          <p>12%</p>	          
-	        </div>
-	        <div class="col-md-1">
-	          <p>17.80</p>	          
-	        </div>
-	    </div>
-
-	    <br>
-
-	    <div class="row" align="center">
-	        <div class="col-md-12">
-	            <h4>SUJETO A PAGOS TRIMESTRALES</h4>
-	        </div>
-	    </div>
-
-	    <div class="row">
-	        <div class="col-md-1 col-md-offset-9">
-	          <p>SUBTOTAL</p>	          
-	        </div>
-	        
-	        <div class="col-md-1">
-	          <p><span class="black">Q. 617.11</span></p>
-	        </div>
-	    </div>
-
-	    <div class="row">
-	        <div class="col-md-1 col-md-offset-9">
-	          <p>DESCUENTO</p>	          
-	        </div>
-	        
-	        <div class="col-md-1">
-	          <p>Q. 0.00</p>
-	        </div>
-	    </div>
-
-	    <div class="row">
-	        <div class="col-md-1 col-md-offset-9">
-	          <p>IVA</p>	          
-	        </div>
-	        
-	        <div class="col-md-1">
-	          <p>Q. 74.05</p>
-	        </div>
-	    </div>
-
-	    <div class="row">
-	        <div class="col-md-1 col-md-offset-9">
-	          <p>TOTAL</p>	          
-	        </div>
-	        
-	        <div class="col-md-1">
-	          <p><span class="black">Q. 691.16</span></p>
-	        </div>
-	    </div>
-
-	    <div class="row" align="center">
-	        <div class="col-md-12">
-	            <h4>TOTAL EN LETRAS: seiscientos noventa y un y 16 / 100</h4>
-	        </div>
-	    </div>
-
-	    <div class="row" align="center">
-	        <div class="col-md-12">
-	            <h4>DATOS FISCALES</h4>
-	        </div>
-	    </div>
-
-	    <div class="row">
-	        <div class="col-md-12">
-	            <h4><span class="black">FIRMA ELECTRONICA:</span> J6s1pnXk618ez9wjfl0HhDDkF9nsGUh6MmFI0JuuimYcvCPfROgg==</h4>
-	        </div>
-	    </div>
-
-	    <div class="row">
-	        <div class="col-md-12">
-	            <h4><span class="black">EMPRESA CONSOLIDADAD EN INVERSIONES, SOCIEDAD ANONIMA NIT 673374</span></h4>
-	        </div>
-	    </div>
-
-
-
-
-
-
-
+	        <td class="text-center">
+	           <h5 class="black">FACTURA ELECTRONICA</h5>
+	           <h6></h6><span class="black">SERIE: </span>AA2 <span class="black">No. </span>51134</h6>
+	           <h6 class="black">NUMERO DE IDENTIFICACION UNICO</h6>
+	           <h6>FACE63-AA2-001-1600000051134</h6>
+	           <h6><span class="black">Fecha de Emisión:</span> 05/02/2016</h6>
+	        </td>
+	      </tr>
+	    </table>
 	       
-    </div> <!--container>
-</body>
-</html>
+  
+<br>
+	<table width="100%" class=" border borderRadius">
+	  <tr class="grayColor">
+	    <td colspan="2" class="text-center">
+	       <h4 class="black">DATOS DEL VENDEDOR (EFACE)</h4>
+	    </td>
+	    </tr>
+	  
+    <tr>
+      <td class="text-left border black">
+        <p>NIT</p>
+      </td>
+      <td class="text-left border"><p>8070299-6</p></td>
+    </tr>
+    <tr>
+       <td class="text-left border black"><p>RAZON SOCIAL</p></td>
+       <td class="text-left border"><p>Centro Integral de Atención Médica, S.A.</p></td>
+    </tr>
+    
+    <tr>
+       <td class="text-left border black"><p>NOMBRE COMERCIAL</p></td>
+       <td class="text-left border"><p>Centro Integral de Atención Médica, S.A.</p></td>
+    </tr>
+    
+     <tr>
+       <td class="text-left border black"><p>DIRECCION</p></td>
+       <td class="text-left border"><p>21 avenida y 7ma Calle 4-32 zona 11, Local L7-07</p></td>
+    </tr>
+    
+  </table>
+  <br>
+  
+  <table width="100%" class="border borderRadius">
+	  <tr class="grayColor">
+	    <td colspan="2" class="text-center black">
+	       <h4>DATOS DEL COMPRADOR</h4>
+	    </td>
+	    </tr>
+	  
+    <tr>
+      <td class="text-left border black">
+        <p>NIT</p>
+      </td>
+      <td class="text-left border"><p>32173-7</p></td>
+    </tr>
+    <tr>
+       <td class="text-left border black"><p>RAZON SOCIAL</p></td>
+       <td class="text-left border"><p>SEGUROS G & T, S.A.</p></td>
+    </tr>
+    
+    <tr>
+       <td class="text-left border black"><p>PACIENTE</p></td>
+       <td class="text-left border"><p>EDIE REYNALDO CARRANZA ENRIQUE</p></td>
+    </tr>
+    
+     <tr>
+       <td class="text-left border black"><p>DIRECCION</p></td>
+       <td class="text-left border"><p>2 ZONA Ruta 2, 2-39 zona 4.</p></td>
+    </tr>
+    
+    <tr>
+       <td class="text-left border black"><p>TELEFONO</p></td>
+       <td class="text-left border"><p>23385858</p></td>
+    </tr>
+    
+    <tr>
+       <td class="text-left border black"><p>Observaciones: </p></td>
+       <td class="text-left border"><p> </p></td>
+    </tr>
+    
+  </table>
+
+<br>
+	   
+  <table width="100%" class="border borderRadius">
+    <tr class="grayColor">
+      <td colspan="5" class="text-center black">
+        <h4>DATOS DEL DOCUMENTO</h4>
+      </td>
+    </tr>
+    <tr>
+      <td class="border text-center black">
+        <p>CANT</p>	
+      </td>
+      <td class="border text-center black">
+        <p>TIPO</p>
+      </td>
+      <td class="border text-center black">
+        <p>DESCRIPCION</p>
+      </td>
+      <td class="border text-center black">
+        <p>P. UNI</p>
+      </td>
+      <td class="border text-center black">
+        <p>TOTAL</p>
+      </td>
+    </tr>
+    
+    <!--DATOS FACTURA -->
+    <tr>
+        <td>
+          <p>1</p>	
+        </td>
+        
+        <td>
+          <p></p>	
+        </td>
+        <td>
+          <p>Uso de la Emergencia</p>
+        </td>
+        <td class="text-right">
+           <p>Q. 446.43</p>
+        </td>
+        <td class="text-right">
+           <p clas="black">Q. 446.43</p>
+        </td>
+      </tr>
+      <tr >
+            <td>
+              <p></p>
+            </td>
+            <td class="border-iva">
+              <p>IVA</p>
+            </td>
+            <td class="border-porcent">
+              <p >12%</p>	 
+            </td>
+            <td class="border-value">
+              <p>53.57</p>
+            </td>
+            <td>
+              <p></p>
+            </td>
+      </tr>  
+      
+      
+      <!--DATOS FACTURA -->
+    <tr>
+        <td>
+          <p>1</p>	
+        </td>
+        
+        <td>
+          <p></p>	
+        </td>
+        <td>
+          <p>Consulta Telefonica Especialista - Sub-especialista</p>
+        </td>
+        <td class="text-right">
+           <p>Q. 22.32</p>
+        </td>
+        <td class="text-right">
+           <p class="black">Q. 22.32</p>
+        </td>
+      </tr>
+      <tr >
+            <td>
+              <p></p>
+            </td>
+            <td class="border-iva">
+              <p>IVA</p>
+            </td>
+            <td class="border-porcent">
+              <p >12%</p>	 
+            </td>
+            <td class="border-value">
+              <p>2.68</p>
+            </td>
+            <td>
+              <p></p>
+            </td>
+      </tr>  
+      
+      
+      
+       <!--DATOS FACTURA -->
+    <tr>
+        <td>
+          <p>1</p>	
+        </td>
+        
+        <td>
+          <p></p>	
+        </td>
+        <td>
+          <p>INSUMOS</p>
+        </td>
+        <td class="text-right">
+           <p>Q. 148.36</p>
+        </td>
+        <td class="text-right">
+           <p class="black">Q. 148.36</p>
+        </td>
+      </tr>
+      <tr >
+            <td>
+              <p></p>
+            </td>
+            <td class="border-iva">
+              <p>IVA</p>
+            </td>
+            <td class="border-porcent">
+              <p >12%</p>	 
+            </td>
+            <td class="border-value">
+              <p>17.80</p>
+            </td>
+            <td>
+              <p></p>
+            </td>
+      </tr> 
+  </table>
+	   
+	    <hr>
+    <table width="100%" class="border borderRadius">
+      
+        <tr class="grayColor">
+          <td class="text-center" colspan="4"><h4>SUJETO A PAGOS TRIMESTRALES</h4></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="text-right"><p>SUBTOTAL</p></td>
+          <td class="text-right black">Q. 617.11</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="text-right">DESCUENTO</td>
+          <td class="text-right black">Q. 0.00</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="text-right">IVA</td>
+          <td class="text-right black">Q. 74.05</td>
+        </tr>
+         <tr>
+          <td></td>
+          <td></td>
+          <td class="text-right">Total</td>
+          <td class="text-right black">Q. 691.16</td>
+        </tr>
+      <tr class="grayColor">
+        <td colspan="4"> <h5>TOTAL EN LETRAS: seiscientos noventa y un y 16 / 100</h5></td>
+        
+        </tr>
+        <tr>
+          <td colspan="4" class="text-center"><h4>DATOS FISCALES</h4></td>
+        </tr>
+        <tr class="grayColor">
+          <td colspan="4"><h5><span class="black">FIRMA ELECTRONICA:</span> J6s1pnXk618ez9wjfl0HhDDkF9nsGUh6MmFI0JuuimYcvCPfROgg==</h5></td>
+        </tr>
+        <tr><td colspan="4"><h6><span class="black">EMPRESA CONSOLIDADA EN INVERSIONES, SOCIEDAD ANONIMA <br/> NIT 673374</span></h6></td></tr>
+    </table>
+	   
+    </div> 
+    
+  
+  </body>
+    
+  </html>
+  
